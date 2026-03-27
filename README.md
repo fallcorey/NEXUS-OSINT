@@ -31,7 +31,7 @@
 # 2. Выполните команды:
 pkg update && pkg upgrade -y
 pkg install python git -y
-git clone https://github.com/ВАШ_ЛОГИН/NEXUS-OSINT.git
+git clone https://github.com/fallcorey/NEXUS-OSINT.git
 cd NEXUS-OSINT
 bash setup.sh
 python main.py
