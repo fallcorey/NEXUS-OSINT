@@ -1,37 +1,34 @@
 <div align="center">
   
-# 🔮 NEXUS-OSINT
-### *Professional Open Source Intelligence Tool*
+# 🔮 NEXUS-OSINT PRO v3.0
+### *Professional Open Source Intelligence Tool + Dark Web Search*
 
-[![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)]()
+[![Version](https://img.shields.io/badge/version-3.0.0-blue.svg)]()
 [![Python](https://img.shields.io/badge/python-3.8+-green.svg)]()
 [![Termux](https://img.shields.io/badge/Termux-Compatible-red.svg)]()
+[![Dark Web](https://img.shields.io/badge/Dark-Web-black.svg)]()
 
 </div>
 
-## 🎯 Что такое NEXUS-OSINT?
+## 🎯 Что нового в v3.0?
 
-**NEXUS-OSINT** - это мощный инструмент для сбора информации из открытых источников, оптимизированный для работы в Termux (Android) и Linux терминалах.
+### 🔥 НОВЫЕ ВОЗМОЖНОСТИ:
 
-## ✨ Возможности
-
-| Модуль | Описание | Пример |
-|--------|----------|--------|
-| 🔍 **Username** | Поиск на 100+ платформах | `-u username` |
-| 📧 **Email** | Проверка утечек, Gravatar | `-e email@example.com` |
-| 📱 **Phone** | Определение оператора, страны | `-p +79991234567` |
-| 🌐 **IP** | Геолокация, провайдер, VPN | `-i 8.8.8.8` |
-| 🏢 **Domain** | WHOIS, DNS, поддомены | `-d example.com` |
+| Функция | Описание |
+|---------|----------|
+| 🕸️ **Dark Web Search** | Поиск в Tor сети и onion-сайтах |
+| 🔍 **200+ Платформ** | Расширенный поиск username |
+| 📧 **Утечки данных** | Проверка через HIBP API |
+| 🏢 **Анализ домена** | WHOIS, DNS, поддомены |
+| 📊 **HTML Отчеты** | Красивые визуальные отчеты |
 
 ## 🚀 Быстрая установка
 
 ### Termux (Android)
 ```bash
-# 1. Установите Termux из F-Droid
-# 2. Выполните команды:
 pkg update && pkg upgrade -y
-pkg install python git -y
+pkg install python git tor -y
 git clone https://github.com/fallcorey/NEXUS-OSINT.git
 cd NEXUS-OSINT
-bash setup.sh
-python main.py
+pip install -r requirements.txt
+python main.py -h
