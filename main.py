@@ -28,7 +28,7 @@ class NEXUS_OSINT:
         """
         print(banner_text)
         print("=" * 60)
-        print("[+] GitHub: https://github.com/ВАШ_ЛОГИН/NEXUS-OSINT")
+        print("[+] GitHub: https://github.com/fallcorey/NEXUS-OSINT")
         print("[+] Version: 2.0.0")
         print("=" * 60)
     
