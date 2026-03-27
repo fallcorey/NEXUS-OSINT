@@ -39,7 +39,7 @@ class NEXUS_OSINT:
         """
         print(banner_text)
         print("=" * 70)
-        print(f"[+] GitHub: https://github.com/ВАШ_ЛОГИН/NEXUS-OSINT")
+        print(f"[+] GitHub: https://github.com/fallcorey/NEXUS-OSINT")
         print(f"[+] Version: {self.version} (Dark Web Ready)")
         print("[+] Features: Username | Email | IP | Domain | Dark Web | Breaches")
         print("=" * 70)
